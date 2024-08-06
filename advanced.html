@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .search-container {
+            width: 50%;
+        }
+        .search-field {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .search-buttons {
+            display: flex;
+            justify-content: center;
+        }
+        .search-buttons input {
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .search-buttons input[type="submit"] {
+            background-color: #4285F4;
+            color: white;
+        }
+        .links {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .links a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #4285F4;
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="C:\Users\tadis\OneDrive\Desktop\project_0\index.html">Google Search</a>
+        <a href="C:\Users\tadis\OneDrive\Desktop\project_0\image.html">Image Search</a>
+    </div>
+    <div class="search-container">
+        <form action="https://www.google.com/search">
+            <input type="text" name="as_q" class="search-field" placeholder="all these words">
+            <input type="text" name="as_epq" class="search-field" placeholder="this exact word or phrase">
+            <input type="text" name="as_oq" class="search-field" placeholder="any of these words">
+            <input type="text" name="as_eq" class="search-field" placeholder="none of these words">
+            <div class="search-buttons">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 15%;
+        }
+        .search-bar {
+            border-radius: 30px;
+            border: 2px solid #dfe1e5;
+            padding: 10px 20px;
+            width: 400px;
+            font-size: 16px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .search-button, .lucky-button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #5f6368;
+            font-size: 14px;
+            padding: 10px 16px;
+            margin: 2px;
+        }
+        .nav-links {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #ab0d47;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <a href="C:\Users\tadis\OneDrive\Desktop\project_0\images.html">Image Search</a>
+        <a href="C:\Users\tadis\OneDrive\Desktop\project_0\advanced.html">Advanced Search</a>
+    </div>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" class="search-bar" placeholder="Search...">
+        <div class="buttons">
+            <input type="submit" value="Google Search" class="search-button">
+            <input type="submit" value="I'm Feeling Lucky" class="lucky-button" formaction="https://www.google.com/search?btnI=I&q=">
+        </div>
+    </form>
+</body>
+</html>
